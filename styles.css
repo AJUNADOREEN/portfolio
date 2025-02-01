@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #fff;
 }
 
 header {
@@ -70,6 +71,8 @@ nav ul li a {
     background: #ddd;
     padding: 20px;
     width: 300px;
+    font-size: 1.0rem;
+    font-weight: bold;
 }
 
 footer {
@@ -86,6 +89,74 @@ footer {
     font-size: 20px;
 }
 
+/* Experience Section */
+#experience {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  #experience .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  #experience h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  
+  .experience-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .company-name {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .duration {
+    color: #888;
+  }
+  
+  .description {
+    margin-top: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .dots {
+    display: inline;
+  }
+  
+  .more {
+    display: none;
+  }
+  
+  .read-more-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #0056b3;
+  }
+  
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;

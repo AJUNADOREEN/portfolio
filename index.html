@@ -12,36 +12,64 @@
     <header>
         <nav>
             <img src="dorrrr.jpeg" alt="Logo" class="logo">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experiences</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section id="home" class="hero">
         <h1>Welcome to My Portfolio</h1>
-        <p>I am [Your Name], a [Your Profession]</p>
+        <p>Discover my projects, skills and experiences.</p>
         <a href="#projects" class="btn">View My Work</a>
     </section>
 
     <section id="about" class="about">
         <h2>About Me</h2>
-        <p>Short introduction about yourself.</p>
+        <p>Software engineer with a passion for building scalable and efficient solutions. With experience in various programming languages and frameworks.</p>
         <a href="#more-about" class="btn">Learn More</a>
     </section>
 
     <section id="projects" class="projects">
         <h2>Featured Projects</h2>
         <div class="project-list">
-            <div class="project-item">Project 1</div>
-            <div class="project-item">Project 2</div>
-            <div class="project-item">Project 3</div>
+            <div class="project-item">Celestial Horizon</div>
+            <div class="project-item">Spark</div>
+            <div class="project-item">Traffic Lights Integration</div>
         </div>
         <a href="#all-projects" class="btn">View More</a>
     </section>
+
+    <!-- Experience Section -->
+<section id="experience">
+    <div class="container">
+      <h2>My Experience</h2>
+      <div class="experience-item">
+        <h3>Job Title 1</h3>
+        <p class="company-name">Company Name 1</p>
+        <p class="duration">June 2020 - Present</p>
+        <p class="description">
+          A brief description of the work done in this role, highlighting key responsibilities and achievements. 
+          <span class="dots">...</span>
+          <span class="more">
+            This part contains more details about your achievements and responsibilities that you want to reveal after clicking the "Read More" button.
+          </span>
+        </p>
+        <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+      </div>
+      <div class="experience-item">
+        <h3>Job Title 2</h3>
+        <p class="company-name">Company Name 2</p>
+        <p class="duration">Jan 2018 - May 2020</p>
+        <p class="description">
+          A brief description of the work done in this role, highlighting key responsibilities and achievements. 
+          <span class="dots">...</span>
+          <span class="more">
+            This part contains more details about your achievements and responsibilities that you want to reveal after clicking the "Read More" button.
+          </span>
+        </p>
+        <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+      </div>
+      <!-- Add more experience items as needed -->
+    </div>
+  </section>
+<script src="script.js"></script>  
 
     <footer>
         <div class="social-links">
