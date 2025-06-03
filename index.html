@@ -1,3 +1,4 @@
+You said:
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,78 +7,223 @@
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="dorrrr.jpeg" alt="Logo" class="logo">
-    </header>
+
+   <header>
+  <nav class="main-nav">
+    <h1 style="text-align: center; width: 100%;">Welcome to My Portfolio</h1>
+    <ul class="nav-menu">
+      <li><a href="#about">About Me</a>
+        <ul class="dropdown">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </li>
+      <li><a href="#projects">Projects</a>
+        <ul class="dropdown">
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#all-projects">All Projects</a></li>
+        </ul>
+      </li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
 
     <section id="home" class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover my projects, skills and experiences.</p>
-        <a href="projects.html" class="btn">View My Work</a>
-    </section>
+  <div class="hero-slider">
+    <div class="slide active" style="background-image: url('dol9.webp');"></div>
+  </div>
+  
+  <div class="hero-content">
+    <p>Discover my projects, skills, and experiences.</p>
+    <a href="projects.html" class="btn">View My Work</a>
+  </div>
+</section>
+
+      
+
 
     <section id="about" class="about">
         <h2>About Me</h2>
-        <p>I’m a passionate IT professional with a strong focus on solving technical challenges and staying on top of emerging technologies. With experience in both software development and system management, I specialize in creating efficient, user-friendly solutions. I use a variety of technologies, including HTML, CSS, JavaScript, React, and Python, to build both the front end and back end of applications. I thrive in collaborative environments, working with teams to deliver high-quality software. Always eager to learn and grow, I’m excited to contribute to the ever-evolving tech landscape.</p>
-        <a href="more-about.html" class="btn">Learn More</a>
-    </section>
-
-    <section id="projects" class="projects">
-        <h2>Featured Projects</h2>
-        <div class="project-list">
-            <div class="project-item">Celestial Horizon</div>
-            <div class="project-item">Spark</div>
-            <div class="project-item">Traffic Lights Integration</div>
+        <div class="about-card">
+          <div class="about-img">
+            <img src="dol4.jpg" alt="About Me Photo">
+          </div>
+          <div class="about-text">
+            <p>
+              I’m a passionate IT professional with a strong focus on solving technical challenges and staying on top of emerging technologies. With experience in both software development and system management, I specialize in creating efficient, user-friendly solutions. I use a variety of technologies, including HTML, CSS, JavaScript, React, and Python, to build both the front end and back end of applications. I thrive in collaborative environments, working with teams to deliver high-quality software. Always eager to learn and grow, I’m excited to contribute to the ever-evolving tech landscape.
+            </p>
+            <a href="more-about.html" class="btn">Learn More</a>
+          </div>
         </div>
-        <a href="#all-projects" class="btn">View More</a>
-    </section>
+      </section>
+      
+      
 
-    <!-- Experience Section -->
-<section id="experience">
-    <div class="container">
-      <h2>My Experience</h2>
-      <div class="experience-item">
-        <h3>Full Stack developer</h3>
-        <p class="company-name">SPARK</p>
-        <p class="duration">June 2024 - Present</p>
-        <p class="description">
-            I specialize in both front-end and back-end development, building seamless, responsive food delivery  applications
-          <span class="dots">...</span>
-          <span class="more">
-            I specialize in both front-end and back-end development, building seamless, responsive web applications. On the front-end, I create intuitive, dynamic user interfaces using HTML, CSS, JavaScript, and frameworks like React and Angular, ensuring cross-device compatibility. On the back-end, I design and manage server-side logic, databases, and APIs using technologies such as Node.js, Python, and Ruby, focusing on efficient data handling and robust application performance. I’m experienced in deploying applications to the cloud, optimizing scalability, and ensuring security with authentication systems. With a strong foundation in version control, CI/CD pipelines, and containerization (Docker), I collaborate closely with designers, developers, and product teams to bring projects to life, ensuring high-quality code and smooth user experiences.
-          </span>
-        </p>
-        <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+  <section id="skills">
+    <h2>TOOLS</h2>
+    <div class="skills-grid">
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>HTML / CSS / JavaScript</p>
+          </div>
+          <div class="flip-card-back">
+            <p>Core technologies for building structured, styled, and interactive websites.</p>
+          </div>
+        </div>
       </div>
-      <div class="experience-item">
-        <h3>Marketing specialist</h3>
-        <p class="company-name">CELESTIAL HORIZONS</p>
-        <p class="duration">Jan 2025</p>
-        <p class="description">
-            I am a marketing specialist responsible for developing, implementing, and managing marketing strategies
-          <span class="dots">...</span>
-          <span class="more">
-            I am a marketing specialist responsible for developing, implementing, and managing marketing strategies to promote products or services. I conduct market research to identify consumer trends, target demographics, and competitive landscapes, ensuring that campaigns are well-targeted and effective. I create engaging content, manage social media accounts, and run digital marketing initiatives such as email marketing, SEO, and SEM. By analyzing data and key performance indicators (KPIs), I measure the success of campaigns and adjust strategies to improve performance. I also handle branding, public relations, and collaborate closely with sales teams to align marketing efforts with business objectives. Additionally, I manage marketing budgets, ensure consistency across all messaging, and stay updated on industry trends to maintain a competitive edge.
-          </span>
-        </p>
-        <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>React </p>
+          </div>
+          <div class="flip-card-back">
+            <p>Powerful frontend libraries/frameworks for building dynamic single-page apps.</p>
+          </div>
+        </div>
       </div>
-      <!-- Add more experience items as needed -->
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>Python </p>
+          </div>
+          <div class="flip-card-back">
+            <p>Backend technologies for server-side logic, APIs, and automation.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>Git & GitHub</p>
+          </div>
+          <div class="flip-card-back">
+            <p>Version control tools for collaboration, code tracking, and deployment workflows.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>UI / UX Design</p>
+          </div>
+          <div class="flip-card-back">
+            <p>Creating user-friendly and visually appealing interfaces and user journeys.</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>Agile & Scrum</p>
+          </div>
+          <div class="flip-card-back">
+            <p>Collaborative, iterative project management methodologies for software teams.</p>
+          </div>
+        </div>
+      </div>
+  
     </div>
   </section>
-<script src="script.js"></script>  
-
-    <footer>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/ajuna-doreen-60985a332/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://x.com/Bebdolla2646" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  <section id="projects" class="projects">
+      <h2>Featured Projects</h2>
+        <div class="project-item">
+            <img src="dol2.png" alt="Celestial Horizon" class="project-img">
+            <p>Celestial Horizon</p>
+          </div>
+          <div>
+          <img src="kkkkk.jpeg" alt="Spark" class="project-img">
+            <p>SPARK</p>
+          </div>
+          <div>
+          <img src="dol3.png" alt="Traffic Lights Integration" class="project-img">
+          <p>Traffic Lights Integration</p>
         </div>
-        <p>Email: dorenajuna@gmail.com | Phone: +256 740997468</p>
-    </footer>
+        <div>
+      <a href="#all-projects" class="btn">View More</a>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="experience-container">
+      <h2>My Experience</h2>
+  
+      <div class="experience-grid">
+  
+        <div class="experience-card">
+          <h3>Full Stack Developer</h3>
+          <p class="company-name">SPARK</p>
+          <p class="duration">June 2024 - Present</p>
+          <p class="description">
+            I specialize in both front-end and back-end development, building seamless, responsive food delivery applications
+            <span class="dots">...</span>
+            <span class="more">
+              I create intuitive, dynamic UIs using HTML, CSS, JavaScript, React, and Angular. On the backend, I use Node.js, Python, and Ruby to design scalable APIs and server logic. I also handle deployment, security, and CI/CD.
+            </span>
+          </p>
+          <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+        </div>
+  
+        <div class="experience-card">
+          <h3>Marketing Specialist</h3>
+          <p class="company-name">CELESTIAL HORIZONS</p>
+          <p class="duration">Jan 2025</p>
+          <p class="description">
+            I develop and manage marketing strategies
+            <span class="dots">...</span>
+            <span class="more">
+              I run digital campaigns (SEO, SEM, email), analyze KPIs, manage social media, and collaborate with teams to align messaging with business goals.
+            </span>
+          </p>
+          <button class="read-more-btn" onclick="toggleReadMore(this)">Read More</button>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>  
+
+ <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-section contact-info">
+      <h3>Contact</h3>
+      <p>Email: dorenajuna@gmail.com</p>
+      <p>Phone: +256 740997468</p>
+    </div>
+
+    <div class="footer-section quick-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section social-links">
+      <h3>Follow Me</h3>
+      <a href="https://www.linkedin.com/in/ajuna-doreen-60985a332/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/Bebdolla2646" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Doreen Ajuna. All rights reserved.</p>
+  </div>
+</footer>
+
 </body>
 </html>
